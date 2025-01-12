@@ -1,0 +1,23 @@
+.header {
+  background-color: #0c244a;
+  display: flex;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-right: 120px;
+  padding-left: 120px;
+}
+#quote {
+  position: absolute;
+  right: 110px;
+  width: Hug(156px);
+  height: Hug (156px);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 40px;
+  padding-left: 40px;
+  border-radius: 8px;
+  background-color: #f3bd00;
+  top: 20px;
+  gap: 10px;
+  border: 1px black;
+}
