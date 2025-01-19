@@ -1,3 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: lato;
+}
+body {
+  overflow-x: hidden;
+}
 .header {
   background-color: #0c244a;
   display: flex;
@@ -17,7 +25,71 @@
   padding-left: 40px;
   border-radius: 8px;
   background-color: #f3bd00;
-  top: 20px;
+  top: 10px;
   gap: 10px;
   border: 1px black;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+}
+.heading p {
+  width: 1200px;
+  height: 58px;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 200px;
+  color: #1c1c1e;
+  text-align: center;
+  position: absolute;
+  left: 85px;
+}
+.quote-main {
+  height: 250px;
+  width: 1100px;
+  padding: 40px;
+  gap: 10px;
+  position: absolute;
+  top: 220px;
+  left: 100px;
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+.quote-container {
+  position: absolute;
+  top: 255px;
+  left: 140px;
+  background-color: #f5f5f5;
+  height: 260px;
+  width: 1100px;
+  text-align: center;
+  border-radius: 20px;
+}
+#quotes {
+  position: absolute;
+  left: 272px;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 57.6px;
+  top: 100px;
+}
+#writer {
+  position: absolute;
+  height: 29px;
+  top: 210px;
+  left: 945px;
+  font-weight: 700;
+  font-size: 24px;
+}
+#generate{
+  position: absolute;
+  border-radius: 8px;
+  border: 1px solid black;
+  background-color: #F3BD00;
+  height:61px;
+  width: 1190px;
+  font-weight: 700;
+  font-size: 24px;
+  left: 100px;
+  top: 600px;
+  cursor: pointer;
 }
