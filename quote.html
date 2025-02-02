@@ -24,11 +24,26 @@
     </div>
     <div class="quote-main"></div>
     <div class="quote-container">
-    <p id="quotes">“Stay hungry, stay foolish.”</p>
-    <p id="writer">- Steve Jobs</p>
+      <p id="quotes">“Stay hungry, stay foolish."</p>
+      <p id="writer">- Steve Jobs</p>
     </div>
     <div class="generate-button">
-      <button id="generate">Generate Quote</button>
+      <button id="generate" onclick="generateQuotes()">Generate Quote</button>
+    </div>
+    <div class="text">
+      <p>New Quote</p>
+    </div>
+    <div class="New-Quote">
+      <input type="text" placeholder="New Quote" id="new-quote" />
+    </div>
+    <div class="text-name">
+      <p>Name</p>
+    </div>
+    <div class="Name">
+      <input type="text" placeholder="Name" />
+    </div>
+    <div class="add-quote">
+      <button onclick="add()" id="add-quote">Add Quote</button>
     </div>
   </body>
   <script src="quote.js"></script>
