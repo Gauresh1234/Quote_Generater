@@ -32,7 +32,7 @@ body {
   font-weight: 700;
   font-size: 16px;
 }
-.heading p {
+.heading>p {
   width: 1200px;
   height: 58px;
   font-weight: 900;
@@ -65,21 +65,19 @@ body {
   border-radius: 20px;
 }
 #quotes {
-  /* position: absolute; */
-     /* left: 30px; */
-     font-size: 48px; 
-    font-weight: 900;
-    line-height: 57.6px;
-     padding-top: 30px;
-    text-align: center;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 57.6px;
+  padding-top: 80px;
+  text-align: center;
 }
 #writer {
   position: absolute;
-    height: 29px;
-    top: 200px;
-    left: 911px;
-    font-weight: 700;
-    font-size: 24px;
+  height: 29px;
+  top: 200px;
+  left: 911px;
+  font-weight: 700;
+  font-size: 24px;
 }
 
 #generate {
@@ -96,7 +94,7 @@ body {
   cursor: pointer;
 }
 
-.text p {
+.text>p {
   height: 29px;
   width: 1200px;
   font-weight: 700;
@@ -119,7 +117,7 @@ body {
   height: 20px;
   width: 1160px;
 }
-.text-name p {
+.text-name>p {
   height: 29px;
   width: 1200px;
   font-weight: 700;
@@ -129,7 +127,7 @@ body {
   left: 100px;
   top: 850px;
 }
-.Name input {
+.Name>input {
   border-radius: 8px;
   border: 1px solid black;
   padding-top: 15px;
